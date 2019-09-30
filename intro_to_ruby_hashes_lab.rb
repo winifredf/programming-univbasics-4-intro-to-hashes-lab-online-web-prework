@@ -51,7 +51,7 @@ def update_counting_hash(hash, key)
   if update_counting_hash["apples"]
   update_counting_hash["apples"] += 1
 else
-  update_counting_hash["top hat"] = 1
+  update_counting_hash["apples"] = 1
 end
   
   # given a hash an a key as parameters, return an updated hash
