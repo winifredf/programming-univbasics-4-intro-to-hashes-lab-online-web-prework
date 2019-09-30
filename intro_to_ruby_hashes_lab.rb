@@ -49,7 +49,7 @@ def update_counting_hash(hash, key)
   update_counting_hash["apples"] += 1
   
   if update_counting_hash["apples"]
-  update_counting_hash["top hat"] += 1
+  update_counting_hash["apples"] += 1
 else
   update_counting_hash["top hat"] = 1
 end
