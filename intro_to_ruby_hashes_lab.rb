@@ -7,6 +7,7 @@ def my_hash
   my_hash = {
   :created => Time.now,
   :message => "Hello world!"
+  
   }
   # return a valid hash with any key/value pair of your choice
 end
@@ -20,6 +21,10 @@ def pioneer
 end
 
 def id_generator
+  generator = {
+  :id => 25
+  
+  }
   # return a hash with a key :id assigned to positive integer
 end
 
