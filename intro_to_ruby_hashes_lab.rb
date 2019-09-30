@@ -36,7 +36,7 @@ end
 def read_from_hash(hash, key)
   read_from_hash = {
     :name => "Benita",
-    read_from_hash
+    read_from_hash [name]
   }
   # return the correct value using the hash and key parameters
 end
