@@ -5,7 +5,7 @@ end
 
 def my_hash
   my_hash = {
-    :created => Time.now,
+  :created => Time.now,
   :message => "Hello world!"
   }
   # return a valid hash with any key/value pair of your choice
